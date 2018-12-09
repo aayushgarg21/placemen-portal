@@ -104,6 +104,11 @@ class SignIn extends React.Component {
                           {
                            window.location  = "/#/stats";
                           }
+                          else if (res.role === "Student")
+                          {
+                              
+                              window.location = "/#/student"
+                          }
                     }
                 });
         }
